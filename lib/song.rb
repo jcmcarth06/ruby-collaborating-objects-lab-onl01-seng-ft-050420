@@ -28,7 +28,7 @@ class Song
     new.song.artist_name = artist
     new_song
   end
-  
+
 
 
 
@@ -37,7 +37,7 @@ class Song
     add_song
   end
 
-  
+
 
   def artist_name=(name)
     self.artist = Artist.find_or_create_by_name(name)
